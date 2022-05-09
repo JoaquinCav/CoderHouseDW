@@ -1,0 +1,11 @@
+.fondoQsomos{
+    background-image: url(/imagenes/fondoQsomos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+#container-qsomos{
+    height: 79.4vh;
+
+}

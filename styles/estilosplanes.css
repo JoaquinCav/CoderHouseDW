@@ -1,0 +1,13 @@
+.fondoPlanes{
+    
+        background-image: url(/imagenes/fondoPlanes.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    
+}
+
+#container-planes{
+    height: 79.4vh;
+
+}

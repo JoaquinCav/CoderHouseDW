@@ -1,0 +1,11 @@
+.fondoSeguro{
+    background-image: url(/imagenes/fondoSeguro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+#container-seguro{
+    height: 79.4vh;
+
+}

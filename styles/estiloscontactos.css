@@ -1,0 +1,12 @@
+.fondoContactos{
+    background-image: url(/imagenes/fondoContactos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+#containerContactos{
+    height: 79.4vh;
+}
+
+

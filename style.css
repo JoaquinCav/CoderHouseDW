@@ -1,63 +1,13 @@
-/*******************************************************************************/
-/*************************Index************************************************/
-/*******************************************************************************/
+/*Estilos Generales*/
 
-/* Barra De Navegacion */
-
-.fondoIndex{
-    background-image: url(Imagenes/fondoInicio.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    box-sizing: border-box;
+    
 }
-
-#navbar li{
-    display: inline-block;
-    margin: 7.5px;
-    color: white;
-    font-size: 22px;
-}
-
-/* Contenedor Principal */
-.container-inicio{
-    text-align: center;
-}
-
-.container-inicio h2{
-    font-size: 50px;
-    color: white;
-    padding-top: 25px;
-}
-
-.subtitulo{
-    font-size: 35px;
-    color:white;
-    margin-top: 25px;
-    border: 5px white double;
-    display: inline-block;
-    padding: 5px 10px;
-}
-
-.opciones-paises{
-    text-align: center;
-}
-
-.opciones-paises li{
-    font-size: 25px;
-    display: inline-block;
-    justify-content: space-around;
-    margin: 50px;
-    color: white;
-}
-
-.btn-list{
-    padding: 5px 15px;
-    border-radius: 10px;
-}
-
-
-
-/* General */
 
 #container-footer{
     color: white;
@@ -81,10 +31,205 @@ button{
     cursor: pointer;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
+
+
+
+/*******************************************************************************/
+/*************************Index************************************************/
+/*******************************************************************************/
+
+/* Barra De Navegacion */
+
+.fondoIndex{
+    background-image: url(Imagenes/fondoInicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+
+#navbar li{
+    display: inline-block;
+    margin: 7.5px;
+    color: white;
+    font-size: 22px;
+}
+
+.itemsNav{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
     
+    
+}
+
+
+/************************/
+/* Contenedor Principal */
+/************************/
+.container-inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70.3vh;
+}
+
+.container-inicio h2{
+    font-size: 50px;
+    color: white;
+    padding-top: 25px;
+    margin-top: 28px;
+}
+
+.subtitulo{
+    font-size: 35px;
+    color:white;
+    margin-top: 25px;
+    border: 5px white double;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.opciones-paises{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.opciones-paises li{
+    font-size: 25px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 50px;
+    color: white;
+    
+}
+
+.btn-list{
+    padding: 5px 15px;
+    border-radius: 10px;
+    
+}
+
+.btn-list:hover{
+    transform: scale(1.2,1.2);
+    /*Como controlar el tiempo del transform*/
+}
+
+/****************************************************************************************************/
+/*************************Estilos pagina de contactos************************************************/
+/****************************************************************************************************/
+
+.fondoContactos{
+    background-image: url(/imagenes/fondoContactos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.itemsNav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+#containerContactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 91.1vh;
+    padding-top: 25px;
+}
+
+#containerContactos h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/****************************************************************************************************/
+/*************************Estilos pagina de Planes***************************************************/
+/****************************************************************************************************/
+
+.fondoPlanes{
+    
+    background-image: url(/imagenes/fondoPlanes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+
+}
+
+.itemsNav{
+display: flex;
+flex-direction: column;
+position: absolute;
+}
+
+#container-planes{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 91.1vh;
+
+}
+
+/****************************************************************************************************/
+/*************************Estilos pagina de Quienes Somos********************************************/
+/****************************************************************************************************/
+
+.fondoQsomos{
+    background-image: url(/imagenes/fondoQsomos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.itemsNav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+#container-qsomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 91.1vh;
+
+}
+
+
+/****************************************************************************************************/
+/*************************Estilos pagina de Seguro***************************************************/
+/****************************************************************************************************/
+
+.fondoSeguro{
+    background-image: url(/imagenes/fondoSeguro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.itemsNav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+#container-seguro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 91.1vh;
+
 }

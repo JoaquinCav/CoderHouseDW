@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EuroTravel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/styles/estiloscontactos.css">
+    
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
         <!--Barra de navegacion-->
     <div class="fondoContactos">
-        <nav id="navbar">
-            <ul>
-                <li><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-menu-multimedia-kiranshastry-lineal-kiranshastry-1.png"/></li>
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="quienessomos.html"><li>Quienes somos?</li></a>
-                <a href="planes.html"><li>Nuestros planes</li></a>
-                <a href="seguroviaje.html"><li>Seguro de viajero</li></a>
-            </ul>
-        </nav>
-
+        <header>
+            <nav id="navbar">
+                <ul class="itemsNav">
+                    <li><img class="menu" src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-menu-multimedia-kiranshastry-lineal-kiranshastry-1.png"/></li>
+                    <a href="../index.html"><li>Inicio</li></a>
+                    <a href="quienessomos.html"><li>Quienes somos?</li></a>
+                    <a href="contactos.html"><li>Contactanos!</li></a>
+                    <a href="planes.html"><li>Nuestros planes</li></a>
+                    <a href="seguroviaje.html"><li>Seguro de viajero</li></a>
+                </ul>
+            </nav>
+        </header>    
         <!--Aca irian iconos con mis redes sociales y cosas asi-->
 
         <!--Formulario para que envien sus opiniones o lo que quieran-->
-        <div id="containerContactos">   
+        <main id="containerContactos">   
+            <h2>Envianos tu consulta!</h2>
             <form>
                 <label for="name">Nombre: </label>
                 <input id="name" type="text" placeholder="Ingrese su nombre">
@@ -44,7 +47,7 @@
                 <button type="submit">Enviar</button>
                 <button type="reset">Reiniciar</button>
             </form>
-        </div>    
+        </main>    
     </div>
 
     <!--Footer-->

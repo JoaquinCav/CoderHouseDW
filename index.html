@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body> 
     <!----------------------->
@@ -41,17 +43,73 @@
         </div>
 
         <ul class="opciones-paises">
-            <li><button class="btn-list">España</button></li>
-            <li><button class="btn-list">Italia</button></li>
-            <li><button class="btn-list">Francia</button></li>
-            <li><button class="btn-list">Noruega</button></li>
-            <li><button class="btn-list">Portugal</button></li>
+            <li><a href="#section1"><button class="btn-list">España</button></a></li>
+            <li><a href="#section2"><button class="btn-list">Italia</button></a></li>
+            <li><a href=""><button class="btn-list">Francia</button></a></li>
+            <li><a href=""><button class="btn-list">Noruega</button></a></li>
+            <li><a href=""><button class="btn-list">Portugal</button></li></a>
         </ul>
 
     </main>
     
 </div>
-    
+<!--------------------SECTION ESPANA-------------------------------------------->
+<section id="section1" class="paises-container">
+    <h3 class="subtitulo-espana">España!</h3> 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imagenes/espanaImg1.jpg" class="d-block w-100" alt="Sagrada Familia">
+            <p>Basilica de La Sagrada Familia, Barcelona.</p>
+        </div>
+        <div class="carousel-item">
+            <img src="imagenes/espanaImg2.jpg" class="d-block w-100" alt="Palacio real madrid">
+            <p>Palacio Real de Madrid, Madrid.</p>
+        </div>
+        <div class="carousel-item">
+            <img src="imagenes/espanaImg3.jpg" class="d-block w-100" alt="Estadio Camp Now">
+            <p>Estadio Camp Now, Barcelona.</p>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!--------------------SECTION ITALIA-------------------------------------------->
+<section id="section2" class="paises-container-italia">
+    <h3 class="subtitulo-espana">Italia!</h3> 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imagenes/italiaImg1.jpg" class="d-block w-100" alt="Sagrada Familia">
+            <p>Coliseo Romano, Roma.</p>
+        </div>
+        <div class="carousel-item">
+            <img src="imagenes/italiaImg2.jpg" class="d-block w-100" alt="Palacio real madrid">
+            <p>Torre inclinada de Pisa, Pisa.</p>
+        </div>
+        <div class="carousel-item">
+            <img src="imagenes/italiaImg3.jpg" class="d-block w-100" alt="Estadio Camp Now">
+            <p>Atardecer en Venecia.</p>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
         <!--Footer-->
     <footer>
         <div id="container-footer">
@@ -63,5 +121,7 @@
             </div>    
         </div>    
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
